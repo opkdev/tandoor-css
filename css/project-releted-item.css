@@ -17,7 +17,7 @@
 .item-object-name {
     top: 25px;
     font-size: 15px;
-    font-family: "Roboto";
+    font-family: "Roboto-Regular";
     color: rgb(0, 0, 0);
     line-height: 1.2;
     position: absolute;
@@ -36,7 +36,7 @@
     text-align: center;
     word-break: break-word;
     font-size: 14px;
-    font-family: "Roboto";
+    font-family: "Roboto-Regular";
     color: rgb(0, 0, 0);
     text-transform: uppercase;
     line-height: 1.2;
@@ -44,7 +44,7 @@
 .item-object-old-price {
     font-size: 16px;
     top:268px;
-    font-family: "Roboto";
+    font-family: "Roboto-Regular";
     font-weight: bold;
     color: rgb(0, 0, 0);
     line-height: 1.2;
@@ -57,7 +57,7 @@
 }
 .item-object-price {
     font-size: 14px;
-    font-family: "Roboto";
+    font-family: "Roboto-Regular";
     color: rgb(0, 0, 0);
     line-height: 1.2;
     text-align: center;
@@ -67,7 +67,7 @@
 }
 .item-object-price-sum{
     font-size: 20px;
-    font-family: "Roboto";
+    font-family: "Roboto-Regular";
     font-weight: bold;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -100,7 +100,7 @@
 .text-for-input {
     text-transform: uppercase;
     font-size: 12px;
-    font-family: "Roboto";
+    font-family: "Roboto-Regular";
     color: rgb(137, 137, 137);
     line-height: 2.2;
     float:right;
