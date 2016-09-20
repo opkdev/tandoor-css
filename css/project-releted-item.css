@@ -1,0 +1,141 @@
+
+/*ФУРНИТУРА*/
+
+.item-object {
+    position: relative;
+    width: 146px;
+    height: 421px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.item-object-bg {
+    background-color: #fafafa;
+    box-shadow: 3px 4px 7px -3px rgba(0,0,0,0.3);
+}
+
+.item-object-name {
+    top: 25px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    word-break: break-word;
+}
+.item-object-color-name {
+    top:70px;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+    text-align: center;
+    word-break: break-word;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+.item-object-old-price {
+    font-size: 16px;
+    top:268px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    text-decoration: line-through;
+    padding-top: 4px;
+
+}
+.item-object-price {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+
+}
+.item-object-price-sum{
+    font-size: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding-top: 4px;
+    line-height: 1.2;
+
+}
+.item-object-price-number {
+    display: inline-block;
+}
+
+.item-object-currency-sign{
+    display: inline-block;
+}
+
+.form {
+    width: 116px;
+    margin: auto;
+}
+
+.custom-input {
+    border-top-color: rgba(161, 161, 161, 0.42);
+    border-left-color: rgba(190, 190, 190, 0.34);
+    box-shadow: inset 3px 4px 7px -3px rgba(0,0,0,0.3);
+    width: 55px;
+}
+
+.text-for-input {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgb(137, 137, 137);
+    line-height: 2.2;
+    float:right;
+}
+
+input[type="text"] {
+    text-align: center;
+    color: rgb(137, 137, 137);
+}
+
+
+.image-box {
+    top:108px;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+}
+
+.button-wrap {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    bottom:15px;
+}
+
+.form-wrap {
+    position: absolute;
+    margin: auto;
+    width: 100%;
+    bottom: 50px;
+}
+
+.price-wrap {
+    top: 250px;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+}

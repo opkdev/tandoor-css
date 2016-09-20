@@ -1,0 +1,192 @@
+
+/* страница товара */
+
+*{
+  outline: none;
+}
+
+}
+.desc-text {
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(26, 26, 26);
+  line-height: 1.5;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.desc-title,
+.spec-title {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(26, 26, 26);
+  line-height: 1.125;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.specification,
+.slider-for,
+.description {
+margin-top: 20px;
+}
+.slider-nav {
+	margin: 28px 0;
+  width:238px;
+}
+.slider-nav img {
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.55);
+}
+
+.slider-nav img:hover{
+  border: 2px solid #adc53d;
+}
+.spec-items {
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(26, 26, 26);
+  line-height: 1.5;
+  text-align: left;
+ }
+
+ .spec-items span {
+ 	padding-left: 5px;
+ 	text-transform: uppercase;
+ 	color: RGBA(93, 91, 91, 0.67);
+ }
+
+
+.setting-box-size {
+  width:158px;
+  height:38px;
+  margin:50px 0px 0px 0px;
+}
+
+.setting-icon-box-size,
+.measure-icon-box-size {
+  width:26px;
+  height:26px;
+  margin-left: 16px;
+}
+
+.measure-box-size {
+  width:122px;
+  height:38px;
+  margin:50px 0px 0px 0px;
+}
+.slick-list {
+  padding-bottom: 3px;
+}
+.slick-next {
+  background-image: url(../img/forward.png);
+  background-size: contain;
+  right: -44px;
+
+}
+.slick-next,
+.slick-prev {
+  height: 70px;
+  width: 42px;
+}
+
+.slick-next::before {
+  content: "";
+}
+
+.slick-prev::before {
+  content: "";
+}
+
+.slick-next:hover,
+.slick-next:focus {
+  background-image: url(../img/forward-bg.png);
+  background-size: contain;
+}
+
+.slick-prev:hover,
+.slick-prev:focus {
+  background-image: url(../img/prev-bg.png);
+  background-size: contain;
+}
+
+.slick-prev {
+  background-image: url(../img/prev.png);
+  background-size: contain;
+  left:-49px;
+}
+
+.black-line-main-item {
+  position: relative;
+  width: 291px;
+  height: 18px;
+  background-image: url(../img/wood.jpg);
+  box-shadow: 0px 16px 15px -4px rgba(36, 34, 34, 0.5);
+
+}
+.polka-main-item {
+  position:relative;
+  width: 291px;
+  height:39px;
+  background-image: url(../img/floorShadow-small.png);
+  background-size: contain;
+  margin: 0;
+}
+
+.wall-shadow-main-item {
+  height: 45px;
+  position:relative;
+  margin: 0 0 0 18px;
+  width: 255px;
+  border-top: none;
+  box-shadow: inset 0px -33px 50px -46px rgba(191,180,191,0.7);
+}
+
+.podium-main-item {
+    left: -13px;
+    position: absolute;
+    margin:0;
+    top: 434px;
+    z-index: -3;
+}
+.slider-shadow-main-item {
+  position:absolute;
+  top:160px;
+  left:210px;
+  z-index: -1;
+}
+
+
+.price-main-item {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(26, 26, 26);
+  line-height: 2.25;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.price span {
+  color: #adc53d;
+  margin-left: 5px;
+}
+.test {
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 40px;
+    font-weight: 600;
+    height: 50px;
+    line-height: 45px;
+    margin-left: 800px;
+    text-align: center;
+    transform: rotate(45deg) scaleX(-1);
+    width: 50px;
+}
+
+
+
+
+
+
+
+
+

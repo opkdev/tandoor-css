@@ -1,0 +1,81 @@
+.slider-box {
+    width: 800px;
+    height: 300px;
+}
+
+.bx-wrapper .bx-next:hover {
+    background-position:left center;
+}
+
+.bx-wrapper .bx-prev:hover {
+    background-position:left center;
+    background-image: url("../img/prev-bg.png")
+;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    height: 80px;
+    margin-top: -45px;
+    outline: 0 none;
+    position: absolute;
+    text-indent: -9970px;
+    width: 55px;
+    z-index: 9999;
+}
+
+.bx-wrapper .bx-next {
+    background-image: url("../img/forward.png");
+    background-position: left center;
+    background-size: contain;
+    right: -26px;
+}
+
+.bx-wrapper .bx-next:hover {
+    background-image: url("../img/forward-bg.png");
+}
+
+
+
+.bx-wrapper .bx-prev {
+    background-image: url("../img/prev.png");
+    background-size: contain;
+    background-position:left center;
+    left: -26px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+    display: inline-block;
+    margin-left: 5px;
+    border-radius: 0px;
+    width: 18px;
+    height: 7px;
+    background: rgb(255, 255, 255);
+    -webkit-transform: skew(-38deg);
+    -moz-transform: skew(-38deg);
+    -o-transform: skew(-38deg);
+    transform: skew(-45deg);
+}
+
+.bx-pager {
+    top:405px;
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    content: " ";
+    background: rgb(173, 197, 61);
+}
+
+.slider-img {
+    min-width: 1132px;
+    max-height: 400px;
+}
+
+.bx-wrapper .bx-viewport {
+    border: none;
+}
+
+.slider-shadow {
+    position: absolute;
+    top:290px;
+    left:1214px;
+}
+

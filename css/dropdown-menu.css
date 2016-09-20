@@ -1,0 +1,48 @@
+
+
+
+/* ВЫПАДАЮЩЕЕ МЕНЮ */
+
+
+.col-md-9 ul ul {
+	position: absolute;
+	display: none;
+	top:100%;
+}
+
+.col-md-9 li ul {
+	position:absolute;
+	top:38px;
+	display:none;
+}
+
+.col-md-9 ul li:hover  ul {
+	display: block;
+	width: 170px;
+	z-index: 40;
+	list-style: none;
+	font-style: italic;
+	font-family: "Roboto";
+	font-size: inherit;
+}
+
+.col-md-9 ul ul {
+	padding-top: 23px;
+	padding-bottom: 23px;
+	list-style: none;
+	border: 1px solid rgb(173, 197, 61);
+	border-top: none;
+	background-color: #1a1a1a;
+}
+
+.col-md-9 ul ul li {
+	line-height: 20px;
+	float:none;
+	padding-left: 10px;
+	position: relative;
+	display: block;
+}
+
+.col-md-9 ul ul li::before {
+	display: none;
+}

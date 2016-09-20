@@ -1,0 +1,639 @@
+
+
+h3 {
+	margin-bottom: 35px;
+	margin-top: 35px;
+	text-transform:uppercase;
+}
+#top-menu {
+	position: fixed;
+	width: 100%;
+	top:0px;
+	z-index: 1000;
+}
+.top-menu-container {
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	background-color: #1a1a1a;
+	border-bottom: 1px solid rgb(173, 197, 61);
+	
+}
+
+ul {
+	padding: 0px;
+}
+
+.list-inline {
+	list-style: none;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.main-menu-list-style li {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+.main-menu-list-style li li {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+
+.main-menu-list-style {
+	list-style: none;
+	text-transform: uppercase;
+  	font-size: 10px;
+  	font-family: "Roboto";
+  	color: rgb(255, 255, 255);
+  	vertical-align: middle;
+}
+
+.main-menu-list-style li::before {
+     content: "|";
+     padding-right: 15px;
+     color: inherit;
+}
+
+li:first-child::before {
+	display: none;
+}
+
+li:first-child {
+	margin-left: 0px;
+}
+
+.feedback li::before {
+	content: "|";
+     padding-right: 15px;
+     color: inherit;
+}
+.nav-menu li::before {
+	content: "|";
+     padding-right: 15px;
+     color: inherit;
+}
+.tandoor li::before {
+	content: "|";
+     padding-right: 15px;
+     color: inherit;
+}
+
+a {
+	color: inherit;
+}
+
+.top-menu-container a:hover,
+.top-menu-container a:focus {
+	color: rgb(173, 197, 61);
+}
+
+.site-map a:hover,
+.site-map a:focus {
+	color: rgba(168, 168, 168, 0.65);
+
+	
+}
+
+.tandoor a:hover,
+.tandoor a:focus {
+	color: rgba(168, 168, 168, 0.65);
+}
+
+.nav-menu a:hover,
+.nav-menu a:focus {
+	color: rgb(173, 197, 61);
+}
+
+.nav-menu .current a {
+	color: rgba(168, 168, 168, 0.65);
+}
+
+.feedback a:hover,
+.feedback a:focus {
+	color: rgb(255, 255, 255);
+}
+
+a:focus,
+a:hover {
+	text-decoration: none;
+	outline: none;
+}
+
+.main-auth {
+	float: right;
+}
+
+.nav-menu {
+	text-transform: uppercase;
+	float: right;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+	margin-top: 30px;
+}
+
+.substrate {
+	width: 100%;
+	height: 388px;
+	margin-top:38px;
+	background-image: url(../img/background-blackWood.png);
+}
+
+.face {
+	width: 600px;
+	margin: auto;
+}
+
+#slider {
+	width: 1132px;
+	height: 400px;
+	position: absolute;
+	left:0px;
+	right: 0px;
+	margin: auto;
+	top:232px;
+	z-index: 10;
+}	
+	
+.strike {
+        display: block;
+        text-align: center;
+        overflow: hidden;
+        white-space: nowrap;
+}
+
+.strike > h3 {
+        position: relative;
+        display: inline-block;
+}
+	
+ .strike > h3::before,
+ .strike > h3::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 9999px;
+        height: 1px;
+        background: #838383;
+}
+
+.strike > h3::before {
+        right: 100%;
+        margin-right: 15px;
+}
+
+.strike > h3::after {
+        left: 100%;
+        margin-left: 15px;
+}
+
+.project-item {
+	position: relative;
+	width: 100%;
+	text-transform: uppercase;
+}
+
+.project-item-bg {
+	background-color: #fafafa;
+	box-shadow: 3px 4px 7px -3px rgba(0,0,0,0.3);
+}
+
+.left {
+	position: relative;
+	width: 49%;
+	float: left;
+	overflow: hidden;
+	z-index: 30;
+}
+
+.left img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.right {
+	position: relative;
+	width: 49%;
+	height: 274px;
+	float: right;
+	word-break: break-word;
+	text-transform: uppercase;
+	
+}
+
+.item-name {
+	font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+	position: relative;
+	margin: auto;
+	top: 32px;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	word-break: break-word;
+}
+.color-name {
+	width: 100%;
+	position: absolute;
+	margin: auto;
+	top: 65px;
+	text-align: center;
+	word-break: break-word;
+	font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+	text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.old-price {
+	font-size: 16px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	text-decoration: line-through;
+}
+
+.price {
+	font-size: 14px;
+    font-family: "Roboto";
+    color: rgb(0, 0, 0);
+    line-height: 1.2;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+.price-sum{
+	font-size: 20px;
+  font-family: "Roboto";
+  font-weight: bold; 
+  color: rgb(0, 0, 0);
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+.price-number {
+	display: inline-block;
+}
+
+.currency-sign{
+	display: inline-block;
+}
+
+.price-wr {
+	top: 110px;
+	position: absolute;
+	width: 100%;
+	margin: auto;
+}
+
+.form {
+	margin: auto;
+	bottom: 10px;
+}
+
+.custom-input {
+	border-top-color: rgba(161, 161, 161, 0.42);
+	border-left-color: rgba(190, 190, 190, 0.34);
+    box-shadow: inset 3px 4px 7px -3px rgba(0,0,0,0.3);
+	width: 55px;
+}
+
+.text-for-input {
+	text-transform: uppercase;
+	font-size: 12px;
+	font-family: "Roboto";
+	color: rgb(137, 137, 137);
+	line-height: 2.2;
+	float:right;
+}
+
+input[type="text"] {
+	text-align: center;
+	color: rgb(137, 137, 137);
+}
+
+.image-box img {
+      display: block;
+      margin: 0 auto; 
+}
+
+
+.project-thumbnails img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: auto;
+	
+}
+
+.title-thumbnails {
+	position: relative;
+	margin: auto;
+	margin-top: 5px;
+	width: 100%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+	
+}
+.text-thumbnails {
+	position: relative;
+	margin: auto;
+	padding-top: 3px;
+	width: 100%;
+	text-align: center;
+	word-break: break-word;
+
+}
+
+.footer {
+	width: 100%;
+	height: 108px;
+	margin-top: 40px;
+	background-image: url(../img/wood.jpg);
+}
+
+.site-map {
+	display: inline-block;
+	padding-top:30px;
+}
+
+.site-map-title {
+	font-size: 16px;
+  font-family: "Roboto"; 
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.125;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+.site-map-links {
+	list-style: none;
+}
+
+.footer1 {
+	padding-top:30px;
+}
+
+.social-icons-box {
+	float: right;
+	clear: both;
+}
+
+.social-icons {
+	display: inline-block;
+	width: 37px;
+	height: 35px;
+	margin-left: 20px;
+}
+
+.vkontakte {
+	background-image: url("../img/vkontakte.png");
+}
+.vkontakte:hover {
+	background-image: url("../img/vkontakte%20bg.png");
+	transition: all 0.1s ease-in;
+}
+.facebook {
+	background-image: url("../img/facebook.png");
+}
+.facebook:hover {
+	background-image: url(../img/facebook%20bg.png);
+	transition: all 0.1s ease-in;
+}
+
+.odnokl{
+	background-image: url("../img/odnokl.png");
+}
+.odnokl:hover {
+	background-image: url("../img/odnokl%20bg.png");
+	transition: all 0.1s ease-in;
+}
+
+.twitter {
+	background-image: url("../img/%7Ftwitter.jpg");
+}
+.twitter:hover {
+	background-image: url("../img/1423149230_Twitter-128%20bg.png");
+	transition: all 0.1s ease-in;
+}
+.all-rights-wr {
+	display: table-cell;
+	vertical-align: middle;
+	
+}
+.all-rights-wr p {
+	margin: 0px;
+}
+
+
+.all-rights-reserved {
+	height: 108px;
+	display: table;
+	font-size: 12px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	line-height: 1.5;
+}
+
+.footer-phone-number{
+	margin-top:30px;
+	font-size: 24px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-align: right;
+	letter-spacing: 1px;
+}
+
+.cart {
+	margin-left: 20px;
+}
+
+
+.logo {
+	position: relative;
+	width: 220px;
+	height: 65px;
+	margin-top: 20px;
+	margin-left:-7px;
+	background-image: url(../img/Logo.png);
+	background-size:cover;
+	float: left;
+}
+
+
+.blank, .cart {
+	display: inline-block;
+	padding-top: 20px;
+	text-transform: uppercase;
+	
+}
+
+.blank-logo, .cart-logo {
+	position: relative;
+	display: inline-block;
+
+}
+
+.blank-text, .cart-text {
+	top: 9px;
+	position: relative;
+	display: inline-block;
+	float: right;
+	padding-left: 5px;
+	font-size: 14px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+}
+
+.blank-text span, .cart-text span {
+	color: rgb(173, 197, 61);
+}
+
+.phone-number {
+	padding-top: 20px;
+	font-size: 24px;
+	font-family: "Roboto";
+	color: rgb(255, 255, 255);
+	line-height: 1.2;
+	text-align: right;
+	letter-spacing: 1px;
+
+	
+}
+.feedback {
+	list-style: none;
+	display: inline-block;
+	margin-left: 15px;
+	text-transform: uppercase;
+	text-align: right;
+	font-size: 12px;
+	font-family: "Roboto";
+	color: rgb(173, 197, 61);
+	float: right;
+}
+
+.footer-feedback-wr {
+	margin-top: 15px;
+}
+
+.main-footer {
+	margin-top: 30px;
+	border-top: 1px solid gray;
+}
+
+.tandoor {
+	text-transform: uppercase;
+	margin-top: 10px;
+	font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(0, 0, 0);
+  line-height: 1.8;
+  text-align: right
+}
+.podium {
+   margin:129px auto 0px;
+	height: 120px;
+}
+
+.black-line {
+	width: 1215px;
+	height: 30px;
+	background-image: url(../img/wood.jpg);
+	margin: auto;
+	box-shadow: 0px 16px 15px -4px rgba(36, 34, 34, 0.5);
+}
+
+.wall-shadow {
+	width: 1153px;
+	height: 45px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 25px;
+	margin-top: -62px;
+	border-top: none;
+	box-shadow: inset 0px -33px 50px -46px rgba(191,180,191,0.7);
+}
+
+.slider-wall-shadow {
+	width: 1170px;
+	height: 45px;
+	margin: auto;
+	border-top: none;
+	box-shadow: inset 0px -33px 50px -46px rgba(191,180,191,0.7);
+}
+
+.slider-polka {
+	width: 1215px;
+	height: 45px;
+	background-image: url("../img/floorShadow.png");
+	background-size: cover;
+	margin: auto;
+}
+
+.polka {
+	width: 1200px;
+	height: 45px;
+	background-image: url("../img/floorShadow.png");
+	background-size: cover;
+	margin: -25px auto;
+	z-index: -2;
+}
+
+.black-line-small {
+	width: 1200px;
+	height: 20px;
+	background-image: url(../img/wood.jpg);
+	margin: 26px auto 0px;
+	box-shadow: 0px 16px 15px -4px rgba(36, 34, 34, 0.5);
+}
+
+#navigation {
+	height: 30px;
+	width: 194px;
+	margin: auto;
+	border: 1px solid black;
+}
+
+
+
+.item {
+	display: inline-block;
+	margin-left: 5px;
+    width: 18px;
+    height: 7px;
+    background: rgb(255, 255, 255);
+    -webkit-transform: skew(-38deg);
+    -moz-transform: skew(-38deg);
+    -o-transform: skew(-38deg);
+    transform: skew(-45deg);
+}
+
+.item:hover {
+	content: " ";
+	background: rgb(173, 197, 61);
+}
+
+.shadow {
+position: absolute;
+top: 2px;
+left: 111px;
+z-index: -1;
+}
+
+
