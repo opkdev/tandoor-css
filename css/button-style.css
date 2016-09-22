@@ -52,4 +52,6 @@
     border-color: rgb(172, 196, 61);
      box-shadow: inset 0px 2px 4px 0px rgba(0, 1, 1, 0.55);
     border-radius: 50%;
+    background-image:url(../img/check.png);
+    background-size: contain;
 }

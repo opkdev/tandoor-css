@@ -5,24 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Страница товара</title>
     <!--FONTS-->
     <link href="./css/fonts.css" rel="stylesheet">
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
     <link href="./css/vendor/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel="stylesheet"/>
     <!-- стили слайдера -->
     <link rel="stylesheet" type="text/css" href="./js/vendor/slick-1.6.0/slick/slick.css"/>
 
     <link rel="stylesheet" type="text/css" href="./js/vendor/slick-1.6.0/slick/slick-theme.css"/>
     <!--стили главной страницы-->
-    
+    <link href="./css/sale-button-style.css" rel="stylesheet"/> <!--кнопка РАСПРОДАЖА-->
+    <link href="./css/dropdown-menu.css" rel="stylesheet"/>  <!--выподающее меню-->
    
     <link href="./css/project-releted-item.css" rel="stylesheet">
     <link href="./css/my-style.css" rel="stylesheet">
     <!--стили страницы товара-->
+    <link href="./css/button-style.css" rel="stylesheet">
     <link href="./css/page-style.css" rel="stylesheet">
-     <link href="./css/buttonStyle.css" rel="stylesheet">
+     
 
     
 
@@ -34,6 +35,112 @@
     <![endif]-->
   </head>
   <body>
+    <header id="top-menu">
+      <div class="top-menu-container">
+      <div class="container">
+        <div class="row">
+        <div class="col-md-9">
+          <ul class="main-menu-list-style">
+            <li><a href="#">главная</a></li>
+            <li class="list-inline">
+              <a href="#">оптовикам</a>
+
+              <ul>
+                <li><a href="#">Как стать дилером?</a></li>
+                <li><a href="#">Как заказать?</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Бренды</a></li>
+                <li><a href="#">Контакты</a></li>
+              </ul>
+
+            </li>
+            <li><a href="#">акции</a></li>
+            <li><a href="#">доставка</a></li>
+            <li><a href="#">о компании</a></li>
+            <li><a href="#">вопрос-ответ</a></li>
+            <li><a href="#">статьи</a></li>
+          </ul>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="main-auth">
+          <ul class="main-menu-list-style">
+            <li><a href="#">вход</a></li>
+            <li><a href="#">регистрация</a></li>
+          </ul>
+          <div>
+        </div>
+        </div>
+      </div>
+      </div><!--".row"-->
+      </div><!--".container"--> 
+      </div> <!--".top-menu-container"-->
+  </header>
+          <div class="substrate" style="height:175px">
+            <div id="block-face">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="logo"></div>
+                  
+                  </div>
+              <div class="col-md-5">
+                <a href="#">
+                <div class="blank">
+                  <div class="blank-logo"><img src="./img/logo-blank.png"/>
+                  </div>
+                  <div class="blank-text">
+                    вы оптовик?<br><span>узнайте оптовые цены</span>
+                  </div>
+                </div>
+                </a>
+            
+              <a href="#">
+              <div class="cart">
+                   <div class="cart-logo">
+                    <img src="./img/logo-cart.png"/>
+                   </div>
+                  <div class="cart-text">
+                   3 товара<br><span>20 000 руб</span>
+                  </div>
+              
+                </div>
+              </a>
+              </div>
+            <div class="col-md-3">
+                <div class="phone-number">8 (918) 114-14-95</div>
+                <div class="feedback">
+                <ul>
+                  <li class="list-inline"><a href="#">обратная связь</a></li>
+                  <li class="list-inline"><a href="#">карта проезда</a></li>
+                </ul>
+                </div>
+            </div>
+              </div> <!--".row"-->
+              <div class="row">
+                <div class="col-md-3">
+                <div class="sale-button-box-wrap-top">  
+                  <a href="#"><div class="sale-button-box">
+                <div class="sale-button-text">распродажа</div>
+                <div class="sale-button-icon-box">%</div>
+                  </div>
+                  </a>
+                </div>  
+                </div>
+                <div class="col-md-9">
+                 <div class = "nav-menu">
+                  <ul>
+                  <li class="list-inline"><a href="#">двери межкомнатные</a></li>
+                  <li class="list-inline"><a href="#">двери входные</a></li>
+                  <li class="list-inline"><a href="#">фурнитура</a></li>
+                </ul>
+
+                </div>
+              </div>
+            </div>
+          </div> <!--".container"-->
+  </div> <!--".block-face"--> 
+  </div>
     <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -74,14 +181,15 @@
           </div>
           <div class="price-main-item">цена:<span>6 543</span><span>p</span></div>
           <div class="price-main-item">цена со скидкой:<span>нет</span></div>
+          <a href="#">
           <div class="measure-button">
             <div class="button-box measure-box-size">
                 <div class="button-text">замер</div>
                 <div class="button-icon-box measure-icon-box-size">
-                  <span class="fa fa-check button-icon"></span>
                 </div>
               </div>
           </div>
+          </a>
           </div><!--".specification"-->
         </div>
         <div class="col-md-5">
@@ -91,22 +199,22 @@
               <p> Товарищи! постоянный количественный рост и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании системы обучения кадров, соответствует насущным потребностям. Товарищи! новая модель организационной деятельности позволяет выполнять важные задания по разработке систем массового участия. Равным образом новая модель организационной деятельности представляет собой интересный эксперимент проверки систем массового участия. С другой стороны дальнейшее развитие различных форм деятельности позволяет выполнять важные задания по разработке форм развития. Не следует, однако забывать, что дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание систем массового участия.
               </p>
             </div><!--".desc-text"-->
+            <a href="#">
             <div class="setting-button">
               <div class="button-box setting-box-size">
                 <div class="button-text">установка</div>
                 <div class="button-icon-box setting-icon-box-size">
-                  <span class="fa fa-check button-icon"></span>
                 </div>
               </div>
             </div>
-            
+            </a>
           </div><!--".description"-->
         </div>
       </div>
     </div>
       <div class="container">
-         <div class="strike">
-    <h3>двери межкомнатные</h3>
+         <div class="strike marg">
+    <h3>похожие товары</h3>
     </div>
     </div>
       <!-- Первый ряд каталога-->  
@@ -140,7 +248,6 @@
              <div class="button-box">
                <div class="button-text">в корзину</div>
                <div class="button-icon-box">
-                <span class="fa fa-check button-icon"></span>
                </div>
                  </div>
             </div>
@@ -176,11 +283,10 @@
               <div class="button-box">
                 <div class="button-text">в корзину</div>
                 <div class="button-icon-box">
-                  <span class="fa fa-check button-icon"></span>
                 </div>
               </div>
             </div>
-              </a>
+            </a>
           </div>
          </div></div>
       <div class="col-md-4">
@@ -211,7 +317,6 @@
               <div class="button-box">
                 <div class="button-text">в корзину</div>
                 <div class="button-icon-box">
-                  <span class="fa fa-check button-icon"></span>
                 </div>
               </div>
             </div>
@@ -223,8 +328,99 @@
     </div>
   <div class="wall-shadow"></div>
   <div class="polka"></div>
-    <div class="black-line-small"></div> 
-    <div class="test">L</div>
+    <div class="black-line-small"></div>
+    <div class="main-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="site-map">
+              <div class="site-map-title">полезное</div>
+                <div class="site-map-links">
+                  <ul>
+                    <li class="site-map-links"><a href="#">Оптовикам</a></li>
+                    <li class="site-map-links"><a href="#">Статьи</a></li>
+                    <li class="site-map-links"><a href="#">Контакты</a></li>
+                  </ul>
+                </div>
+              
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="site-map">
+              <div class="site-map-title">справки</div>
+                <div class="site-map-links">
+                  <ul>
+                    <li class="site-map-links"><a href="#">Акции</a></li>
+                    <li class="site-map-links"><a href="#">Вопрос-ответ</a></li>
+                    <li class="site-map-links"><a href="#">О компании</a></li>
+                  </ul>
+                </div>
+              
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="site-map">
+              <div class="site-map-title">каталог</div>
+                <div class="site-map-links">
+                  <ul>
+                    <li class="site-map-links"><a href="#">Межкомнатные двери</a></li>
+                    <li class="site-map-links"><a href="#">Входные двери</a></li>
+                    <li class="site-map-links"><a href="#">Фурнитура</a></li>
+                  </ul>
+                </div>
+              
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer1">
+            <div class="sale-button-box-wrap-footer">
+              <a href="#">
+              <div class="sale-button-box">
+                <div class="sale-button-text">распродажа</div>
+                <div class="sale-button-icon-box">%</div>
+                  </div>
+              </a>
+              <div class="tandoor">
+                <ul>
+                  <li class="list-inline"><a href="#">главная</a></li>
+                  <li class="list-inline"><a href="#">tandoor</a></li>
+                </ul>
+              </div>
+              </div>
+              <div class="social-icons-box">
+                <div class="social-icons vkontakte"></div>
+                <div class="social-icons facebook"></div>
+                <div class="social-icons odnokl"></div>
+                <div class="social-icons twitter"></div>
+              </div> 
+            </div>
+          </div>
+        </div><!--".row"-->
+      </div><!--".container"-->
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8">
+              <div class="all-rights-reserved">
+                <div class="all-rights-wr">
+                  <p>2005-2015 Все права защищены. Супермаркет дверей Tandoor<br>продажа входных дверей, стальных дверей, недорогих дверей, оптовая продажа входных дверей</p>
+                </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="footer-feedback-wr">
+            <div class="phone-number">8 (918) 111-14-95</div>
+            <div class="feedback">
+              <ul>
+                <li class="list-inline"><a href="#">обратная связь</a></li>
+                <li class="list-inline"><a href="#">карта проезда</a></li>
+              </ul>
+            </div>
+            </div>  <!--".footer-feedback-wr" -->
+          </div>
+      </div>       
+       </div>
+  </div><!--".main-footer"-->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="./js/vendor/jquery-1.12.4.min.js"></script>
